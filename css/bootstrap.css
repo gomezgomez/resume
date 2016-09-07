@@ -860,7 +860,7 @@ pre code {
 .badge {
   display: inline-block;
   padding: 1px 2px;
-  font-size: 10 px;
+  font-size: 9 px;
   font-weight: normal;
   line-height: 14px;
   color: #ffffff;
@@ -869,9 +869,9 @@ pre code {
   background-color: #999999;
 }
 .label {
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
   margin-left:1px;
   margin-right:1px;
   margin-top:1px;
@@ -914,7 +914,7 @@ a.badge:focus {
 }
 .label-success,
 .badge-success {
-  background-color: #468847;
+  background-color: #555555;
 }
 .label-success[href],
 .badge-success[href] {
@@ -922,7 +922,7 @@ a.badge:focus {
 }
 .label-info,
 .badge-info {
-  background-color: #3a87ad;
+  background-color: #bfbfbf;
 }
 .label-info[href],
 .badge-info[href] {
@@ -961,7 +961,7 @@ table {
   line-height: 19px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 0px;
 }
 .table th {
   font-weight: bold;
@@ -978,7 +978,7 @@ table {
   border-top: 0;
 }
 .table tbody + tbody {
-  border-top: 2px solid #dddddd;
+  border-top: 0px solid #dddddd;
 }
 .table .table {
   background-color: #ffffff;
@@ -988,7 +988,7 @@ table {
   padding: 4px 5px;
 }
 .table-bordered {
-  border: 1px solid #dddddd;
+  border: 0px solid #dddddd;
   border-collapse: separate;
   *border-collapse: collapse;
   border-left: 0;
@@ -998,7 +998,7 @@ table {
 }
 .table-bordered th,
 .table-bordered td {
-  border-left: 1px solid #dddddd;
+  border-left: 0px solid #dddddd;
 }
 .table-bordered caption + thead tr:first-child th,
 .table-bordered caption + tbody tr:first-child th,
