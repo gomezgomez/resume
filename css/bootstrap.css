@@ -176,7 +176,7 @@ textarea {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 0px solid #999;
     page-break-inside: avoid;
   }
   thead {
@@ -206,7 +206,7 @@ textarea {
 body {
   margin: 0;
   font-family: "Lucida Sans Unicode", Lucida, Tahoma, sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
@@ -550,7 +550,7 @@ p {
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 14px;
   font-weight: 200;
   line-height: 30px;
 }
@@ -639,7 +639,7 @@ h3 {
   line-height: 40px;
 }
 h1 {
-  font-size: 38.5px;
+  font-size: 18px;
 }
 h2 {
   font-size: 31.5px;
