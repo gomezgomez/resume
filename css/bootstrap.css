@@ -859,7 +859,7 @@ pre code {
 .label,
 .badge {
   display: inline-block;
-  padding: 2px 2px;
+  padding: 1px 1px;
   font-size: 10 px;
   font-weight: normal;
   line-height: 14px;
@@ -874,6 +874,8 @@ pre code {
   border-radius: 2px;
   margin-left:2px;
   margin-right:2px;
+  margin-top:2px;
+  margin-bottom:2px;
 }
 .badge {
   padding-left: 9px;
