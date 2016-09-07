@@ -859,7 +859,7 @@ pre code {
 .label,
 .badge {
   display: inline-block;
-  padding: 2px 2px;
+  padding: 2px 4px;
   font-size: 10 px;
   font-weight: normal;
   line-height: 14px;
