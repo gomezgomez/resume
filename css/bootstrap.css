@@ -618,7 +618,7 @@ h5,
 h6 {
   margin: 10px 0;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: inherit;
   line-height: 20px;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -654,7 +654,7 @@ h5 {
   font-size: 14px;
 }
 h6 {
-  font-size: 11.9px;
+  font-size: 12px;
 }
 h1 small {
   font-size: 24.5px;
@@ -872,7 +872,7 @@ pre code {
 .label {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 .badge {
   padding-left: 9px;
