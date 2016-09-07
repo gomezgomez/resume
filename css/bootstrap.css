@@ -859,12 +859,12 @@ pre code {
 .label,
 .badge {
   display: inline-block;
-  padding: 4px 4px;
+  padding: 10px 2px;
   font-size: 10 px;
   font-weight: normal;
-  line-height: 13px;
+  line-height: 12px;
   color: #ffffff;
-  vertical-align: center;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #999999;
 }
