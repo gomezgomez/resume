@@ -872,8 +872,7 @@ pre code {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin-left:200px;
 }
 .badge {
   padding-left: 9px;
