@@ -1580,7 +1580,7 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
+  display:table-cell;
   max-width: 100%;
   height: auto;
 }
@@ -1588,7 +1588,7 @@ img {
   border-radius: 6px;
 }
 .img-thumbnail {
-  padding: 4px;
+  padding: 0px;
   line-height: 1.42857143;
   background-color: #f8f5f0;
   border: 1px solid #dfd7ca;
@@ -4474,7 +4474,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #e5e5e5;
 }
 .nav > li > a > img {
-  max-width: none;
+  max-width: %100;
 }
 .nav-tabs {
   border-bottom: 1px solid #dfd7ca;
