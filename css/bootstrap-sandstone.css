@@ -286,6 +286,9 @@ th {
   margin-top: 1px;
 }
 /* White icons with optional class, or on hover/focus/active states of certain elements */
+.icon-red, .icon-red a {
+  color: #f00;
+}
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
@@ -1766,7 +1769,7 @@ small,
 }
 mark,
 .mark {
-  background-color: #fcf8e3;
+  background-color: #fff;
   padding: .2em;
 }
 .text-left {
@@ -7366,3 +7369,4 @@ input:focus,
 .panel-default .panel-footer {
   color: #98978b;
 }
+
