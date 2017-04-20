@@ -1594,7 +1594,7 @@ img {
   padding: 0px;
   line-height: 1.42857143;
   background-color: #f8f5f0;
-  border: 1px solid #dfd7ca;
+  border: 0px solid #dfd7ca;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -2734,7 +2734,8 @@ th {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  padding: 8px;
+  padding: 0px; /* PADDING PARA LAS TABLAS*/
+   
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 0px solid #dfd7ca;
