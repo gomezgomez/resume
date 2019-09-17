@@ -7,20 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap-sandstone.css" rel="stylesheet" media="all">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/ngokevin/aframe-animation-component/master/dist/aframe-animation-component.min.js"></script>
+    <script src="https://rawgit.com/protyze/aframe-curve-component/master/dist/aframe-curve-component.min.js"></script>
+    <script src="https://rawgit.com/protyze/aframe-alongpath-component/master/dist/aframe-alongpath-component.min.js"></script>
   </head>
   <body>
-      
-      
-      
-      
-      
-
-      
-      
-      
-      
-      
-      
       
 	<div class="container-fluid">
 	          <div class="progress">
@@ -34,54 +26,39 @@
 	  <div class="row-fluid" >
 		<div class="col-sm-3">
 		  <!--Sidebar content-->
-         
-            
-            
-            
-            
-            
-            
-            
-            
     
 		<table class="table" >
-        	
-        	
          <tr ><td class="table">
-       
-             
-           
-              <img class="img-responsive"  src="img/header01.png">
-             
-             
-
-             
-             
-      
-             	</td></tr>
-
-          
-            </table>
-            
-                    
-             
-         <!--i class="icon-heart"></i> <a href="http://www.gomezbiggeri.com" target="_blank">Personal Work</a> <br-->
-
-
-	
-                
-
-
-		</div> 
-	
-          
-          
+              <!--<img class="img-responsive"  src="img/header01.png">-->
         
-          
-          
-          
-
-        <div class="col-sm-5" >
+                       
+<style>
+  #myEmbeddedScene {
+    width:300px;
+    height:300px;
+  }
+</style>
+<div id="myEmbeddedScene">
+  <a-scene vr-mode-ui="enabled: false" embedded>
+      <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 360; loop: true; dur: 10000">
+<a-camera position="0 0 4" look-controls="enabled: false"></a-camera>
+          </a-entity>
+      <a-sky></a-sky>
+      <a-entity id="object-container" position="0 1.6 -2" scale=".4 .4 .4"></a-entity>
+    </a-scene>
+        <script>
+document.querySelector("a-scene").addEventListener("loaded", (e)=>{
+console.log("hi")
+document.querySelector(".a-canvas").style.cursor = "none"
+})
+ </script>
+  <script type="text/javascript" src="js/app.js"></script>
+</div>
+             	</td></tr>
+            </table>
+         <!--i class="icon-heart"></i> <a href="http://www.gomezbiggeri.com" target="_blank">Personal Work</a> <br-->
+	</div> 
+	        <div class="col-sm-5" >
 		  <!--Body content-->
           
               <table class="table" >
@@ -111,8 +88,8 @@
                    <tr><td>
                        <br>
                    <h6 class="mark small"><dt> <img   src="img/icon_be.png"><a href="https://www.behance.net/sbiggeri" target="_blank">&nbsp;SELECTED PROJECTS</a></dt></h6>
-              <h6 class="mark small"><dt> <img   src="img/icon_t.png"><a href="https://sbiggeri.tumblr.com" target="_blank">&nbsp;SKETCHES</a></dt></h6> 
-              <h6 class="mark small"><dt><img   src="img/icon_li.png"><a href="http://www.linkedin.com/in/sbiggeri" target="_blank">&nbsp;RESUME</a></dt></h6> 
+              <h6 class="mark small"><dt> <img   src="img/icon_t.png"><a href="https://sbiggeri.tumblr.com" target="_blank">&nbsp;BLOG</a></dt></h6> 
+              <h6 class="mark small"><dt><img   src="img/icon_li.png"><a href="http://www.linkedin.com/in/sbiggeri" target="_blank">&nbsp;ABOUT</a></dt></h6> 
              </td></tr>
                   
         
